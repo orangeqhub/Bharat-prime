@@ -1,0 +1,125 @@
+/* ======================= Logo ======================= */
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  line-height: 1;
+}
+
+.logo--center {
+  justify-content: center;
+}
+
+.logo__mark {
+  display: inline-flex;
+  flex-shrink: 0;
+}
+
+.logo__mark img {
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+/* tone used on light surfaces (navbar, admin) */
+.logo--light .logo__text {
+  color: var(--clr-ink);
+}
+
+.logo--dark .logo__text {
+  color: #fffdf6;
+}
+
+.logo--light .logo__sub {
+  color: var(--clr-copper);
+}
+
+.logo--dark .logo__sub {
+  color: var(--clr-gold-soft);
+}
+
+.logo__text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.12rem;
+}
+
+.logo__name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.02rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.logo__sub {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.58rem;
+  letter-spacing: 0.42em;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+/* ======================= Section header ======================= */
+.section-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  max-width: 720px;
+}
+
+.section-header--center {
+  align-items: center;
+  text-align: center;
+  margin-inline: auto;
+}
+
+.section-header__title {
+  font-size: clamp(2rem, 4.6vw, 3.2rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  line-height: 1.1;
+}
+
+.section-header__sub {
+  color: var(--clr-text-muted);
+  font-size: clamp(1rem, 1.4vw, 1.12rem);
+  line-height: 1.7;
+}
+
+/* ======================= Button sizes ======================= */
+.btn--sm {
+  padding: 0.62rem 1.15rem;
+  font-size: 0.76rem;
+}
+
+.btn--lg {
+  padding: 1rem 2.1rem;
+  font-size: 0.92rem;
+}
+
+/* ======================= Icon tile ======================= */
+.icon-tile {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  background: linear-gradient(140deg, rgba(184, 123, 8, 0.14), rgba(184, 123, 8, 0.04));
+  border: 1px solid rgba(184, 123, 8, 0.3);
+  color: var(--clr-copper);
+}
+
+.icon-tile svg {
+  width: 25px;
+  height: 25px;
+}
+
+/* ======================= Divider ======================= */
+.divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--clr-cream), transparent);
+}

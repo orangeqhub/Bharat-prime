@@ -1,0 +1,59 @@
+:root {
+  /* ===== Bharat Prime brand palette — navy & gold (derived from logo) ===== */
+  /* Navy-tinted ink on white / soft cream */
+  --clr-ink: #0b1f3c;
+  --clr-coal: #071530;
+  --clr-espresso: #12305b;
+  --clr-cocoa: #44526f;
+  --clr-linen: #67748e;
+
+  /* Brand navy (logo navy — #02235c / #002868) */
+  --clr-navy: #002868;
+  --clr-navy-deep: #031d4a;
+  --clr-navy-soft: #3d66a8;
+
+  /* Brand gold (logo gold — #b87201 → #f8c830) */
+  --clr-bronze: #b87b08;
+  --clr-copper: #002868;
+  --clr-gold: #b87b08;
+  --clr-gold-soft: #e3bc56;
+  --clr-gold-deep: #9a6b00;
+
+  --clr-beige: #44526f;
+  --clr-sand: #67748e;
+  --clr-cream: #f7f2e6;
+  --clr-alabaster: #fffdf6;
+
+  --clr-sage: #3d66a8;
+  --clr-olive: #12305b;
+  --clr-text-muted: #44526f;
+  --clr-text-soft: #67748e;
+
+  /* ===== Effects ===== */
+  --shadow-sm: 0 2px 10px rgba(11, 31, 60, 0.06);
+  --shadow-md: 0 12px 32px rgba(11, 31, 60, 0.1);
+  --shadow-lg: 0 28px 64px rgba(11, 31, 60, 0.16);
+  --shadow-gold: 0 18px 44px rgba(184, 123, 8, 0.22);
+  --ring: 0 0 0 3px rgba(184, 123, 8, 0.3);
+
+  --radius-sm: 12px;
+  --radius: 18px;
+  --radius-lg: 26px;
+  --radius-xl: 34px;
+
+  --maxw: 1200px;
+
+  --font-display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+
+  --trans: 220ms cubic-bezier(0.22, 1, 0.36, 1);
+  --trans-slow: 480ms cubic-bezier(0.22, 1, 0.36, 1);
+
+  --header-h: 84px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    --anim-reveal: 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+}
